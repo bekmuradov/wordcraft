@@ -307,7 +307,7 @@ export abstract class Operation {
   static globalControls = {
     lookahead: new ToggleControl({
       prefix: 'lookahead',
-      description: 'Whether Wordcraft will account for text after the cursor.',
+      description: 'Whether ProsePilot will account for text after the cursor.',
       value: true,
     }),
   };

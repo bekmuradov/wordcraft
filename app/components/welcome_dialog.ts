@@ -39,8 +39,8 @@ export class WelcomeDialogComponent extends MobxLitElement {
 
   override render() {
     const welcomeMessage = this.hasBeenWelcomed
-      ? 'About Wordcraft'
-      : 'Welcome to Wordcraft!';
+      ? 'About ProsePilot'
+      : 'Welcome to ProsePilot!';
 
     // clang-format off
     return html`
@@ -51,7 +51,7 @@ export class WelcomeDialogComponent extends MobxLitElement {
         <div class="main">
           <div class="title">✨✍️${welcomeMessage}</div>
           <p>
-            Wordcraft is a text editor that enables collaborative writing with a
+            ProsePilot is a text editor that enables collaborative writing with a
             powerful language model, with a suite of built-in controls: from
             generating new content to rewriting text, even suggesting what to
             try next.
@@ -76,7 +76,7 @@ export class WelcomeDialogComponent extends MobxLitElement {
             conversation with the AI about your story to develop new ideas and
             get feedback.
           </p>
-          <p>❤️ - Wordcraft</p>
+          <p>❤️ - ProsePilot</p>
         </div>
         ${this.renderGetStarted()}
       </div>
